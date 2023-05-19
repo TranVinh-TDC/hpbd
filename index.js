@@ -1,6 +1,7 @@
-const contentLetterSrart_actived = "Hello còi nhaaaa." //Lời mở đầu cho bức thư
-const mainContentLetter = "Chúc mừng sinh nhật còi!!! Chúc tuổi mới bớt còi nè. Chúc cho ngày càng xinh đẹp, sức khỏe thì như trâu và thành công trong công việc nha!!!!" //Nội dung của bức thư
-
+const contentLetterSrart_actived = "Hello còi nhaaaa. Click dô hộp quà bên dưới sẽ có điều bất ngờ..." //Lời mở đầu cho bức thư
+const mainContentLetter = "Chúc mừng sinh nhật còi!!! Chúc tuổi mới bớt còi nè. Chúc cho ngày càng xinh đẹp, sức khỏe thì như trâu và thành công trong công việc nha" //Nội dung của bức thư
+var audio = new Audio('happy-birthday-to-you-piano-version-13976.mp3');
+audio.play();
 // Gắn 1 đường link ảnh bất kì
 let imgStart = document.querySelector(".myAI"); //Hình ảnh xuất hiện trong lời mở đầu của bức thư
 imgStart.src = "./img/cute-young-boy-kid-wearing-vest-and-hat-free-png.png";
